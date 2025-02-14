@@ -1,0 +1,42 @@
+.App
+{
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-direction: column;
+  height: 100vh;
+  padding-top: 5%;
+  background-color: coral;
+  .header
+  {
+    color: aliceblue;
+    text-shadow: 0 0 10px #00d4ff, 0 0 20px #00d4ff, 0 0 40px #00d4ff, 0 0 80px #00d4ff, 0 0 160px #00d4ff;
+    padding: 10px;
+    animation: glow 1.5s infinite alternate;
+    border-bottom:  white 4px solid;
+    text-transform: capitalize;
+  }
+
+  .tasks
+  {
+    width: 70%;
+    gap: 10px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    
+    .one-task
+    {
+      display: flex;
+      background-color: azure;
+      justify-content: space-between;
+      padding: 6px 10px;
+      border-radius: 5px;
+      p
+      {
+        font-weight: 600;
+        margin: auto 0px;
+      }
+    }
+  }
+}
