@@ -2,7 +2,8 @@
   "name": "todo",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://mahmoud-habib-hby.github.io/to-do-list.git",
+"homepage": "https://mahmoud-habib-hby.github.io/to-do-list",
+
   "dependencies": {
     "bootstrap": "^5.3.3",
     "react": "^18.0.0",
